@@ -1,0 +1,77 @@
+/* Common style for all  */
+* {
+    font-family: 'Lato',
+        sans-serif;
+    font-family: 'Poppins',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    color: #272727;
+    width: auto;
+    height: 850px;
+    padding: 0 50px;
+    margin-bottom: 178px;
+
+
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.button-primary {
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+}
+
+.banner-pic {
+    width: 600px;
+    height: 800px;
+    padding-top: 50px;
+}
+
+.featured-flower {
+    margin: auto;
+    background-color: chartreuse;
+    text-align: center;
+    width: 594px;
+}
+
+
+.featured-pic {
+    display: flex;
+    align-items: center;
+}
+
+#featured-pic-first {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+
+#featured-pic-second {}
+
+#featured-pic-third {}
