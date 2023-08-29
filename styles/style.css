@@ -127,13 +127,17 @@
 
 /* delivery style start from here */
 .delivery {
-    display: flex;
-    justify-content: center;
-    gap: 271px;
+    width: 1440px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 128px 240px;
-    padding: 86px 175px;
+    margin: 128px auto;
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+
+.delivery-info {
+    display: flex;
+    justify-content: space-around;
 }
 
 .delivery figure {
@@ -150,6 +154,7 @@
 /* hot deal style start from here */
 .hot-deal {
     height: 620px;
+    justify-content: space-evenly;
 }
 
 .hot-deal-info {
