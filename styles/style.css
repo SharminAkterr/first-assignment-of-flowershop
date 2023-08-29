@@ -8,10 +8,10 @@
     padding: 0;
 }
 
-
+/* header section start from here */
 .banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
     color: #272727;
@@ -19,17 +19,20 @@
     height: 850px;
     padding: 0 50px;
     margin-bottom: 178px;
+    padding: 0px 240px;
 
 
 }
 
 .banner-title {
+    width: 708px;
     font-size: 80px;
     font-weight: 800;
     margin-bottom: 32px;
 }
 
 .banner-description {
+    width: 634px;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -39,11 +42,13 @@
     border: 0;
     border-radius: 8px;
     background: #E55473;
+    padding: 20px 43px;
+    text-decoration: none;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 43px;
 }
+
 
 .banner-pic {
     width: 600px;
@@ -51,27 +56,93 @@
     padding-top: 50px;
 }
 
+/* main section start from here */
 .featured-flower {
     margin: auto;
-    background-color: chartreuse;
     text-align: center;
     width: 594px;
 }
 
+.featured-flower h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-flower p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
 
 .featured-pic {
     display: flex;
-    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.featured-pic figure {
+    width: 464px;
+    height: 538px;
+
 }
 
 #featured-pic-first {
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 78px;
     background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
 }
 
 
-#featured-pic-second {}
+#featured-pic-second {
+    width: 370px;
+    height: 370px;
+    padding: 117px 47px 51px 47px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
 
-#featured-pic-third {}
+}
+
+#featured-pic-third {
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px 75px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.featured-pic figcaption {
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* delivery style start from here */
+.delivery {
+    display: flex;
+    justify-content: center;
+    gap: 271px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px;
+    padding: 86px 175px;
+}
+
+.delivery figure {
+    text-align: center;
+}
+
+.delivery figcaption {
+    margin-top: 24px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+}
+
+/* hot deal style start from here */
