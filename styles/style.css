@@ -177,6 +177,9 @@
 }
 
 /* instagram section and featured section has same style */
+.facebook-section {
+    margin-top: 128px;
+}
 
 /* contact section style start from here */
 .contact-section {
