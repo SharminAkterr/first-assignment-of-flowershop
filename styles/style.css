@@ -127,6 +127,8 @@
 
 /* delivery style start from here */
 .delivery {
+    display: flex;
+    justify-content: space-around;
     width: 1440px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -135,10 +137,7 @@
     padding-bottom: 86px;
 }
 
-.delivery-info {
-    display: flex;
-    justify-content: space-around;
-}
+.delivery-info {}
 
 .delivery figure {
     text-align: center;
